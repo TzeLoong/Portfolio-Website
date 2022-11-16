@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:wght@400;500;600;700&family=Public+Sans:wght@400;600&family=Roboto:wght@400;500;700&family=Rubik&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">T<span>L</span></a>
+    <ul class="navlist">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="left">
+      <div class="home-text">
+      <div class="slide">
+        <span class="one">Hello</span>
+        <span class="two">I'm</span>
+      </div>
+          <h1><span class="auto-type"></span></h1>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        
+        <script>
+          
+          var typewriter = new Typed(".auto-type", {
+            strings: ["Happy To See U", "Tze Loong", "Looking For An Internship", ""],
+            typeSpeed: 80,
+            backSpeed: 40,
+            loop: true
+            
+          })
+          </script>
+      </div>
+    </div>
+
+   
+   <div class="right">
+    <img src="images/Profile-4.png" class="profile" alt="profile picture">
+      <!-- <img src="Image-7.png" class="avatar" id="anchor" alt="avatar">
+      <div id="eyes">
+        <img class="eye" src="eye-2.png" style="top: -288px; left: 300px; height: 25px;">
+        <img class="eye" src="eye-2.png" style="top: -284px; left: 410px; height: 25px;">
+      </div> -->
+    </div>
+  </div>
+    
+    
+  
+      <!-- <p>Aspiring to become a Blockchain Developer</p> -->
+      <!-- <div class="button"></p><i class='bx bxl-bitcoin' ></i>
+       <div class="button">
+        <a href="#" class="btn">Say Hello</a>
+        <a href="#" class="btn2"><span></span></a>
+        <i class='bx bx-play'></i>
+      </div> -->
+      
+    
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <!-- <img src="Profile-3.jpeg" class="profile" alt="profile picture"> -->
+          <img src="images/Image-7.png" class="avatar" id="anchor" alt="avatar">
+      <div id="eyes">
+        <img class="eye" src="images/eye-2.png" style="top: -288px; left: 200px; height: 25px;">
+        <img class="eye" src="images/eye-2.png" style="top: -284px; left: 310px; height: 25px;">
+      </div>
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>
+            Computer Engineering Sophomore @ NUS <br/>
+            Interested in Web Development and Blockchain. <br/>
+            Eager to learn and find mentors to improve
+          </p>
+
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming Languages</span><br>C &nbsp; C++ &nbsp; Javascript &nbsp; Solidity</li>
+              <li><span>Web Development</span><br>React Native &nbsp; HTML5 &nbsp; CSS3</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2021 - Present</span><br>Major in Computer Engineering at NUS</li>
+              <li><span>Extra Curricular Activities</span>
+                <br>Blockchain Developer, NUS Fintech Society
+                <br>Cohort Representative, ECE Student Council 
+                <br>Member, NUS Mountaineering 
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/Logo-4.png" alt="project-1 image">
+          <div class="layer">
+            <h3>Crowdfunding platform</h3>
+            <p>My team and I developed this website for a Blockchain Engineering Module (EE4032)
+            </p>
+            <a href="https://acakebro.github.io/EE4032-FE/" target="_blank"><i class='bx bx-link-external' ></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/Logo-7.png" alt="project-1 image">
+          <div class="layer">
+            <h3>Web3.0 Application</h3>
+            <p> 
+              Utilized Tailwind CSS, Hardhat and development tools such as Alchemy. Credits to adrianhajdin.
+            </p>
+            <a href="https://tzeloong.github.io/Krypt/" target="blank"><i class='bx bx-link-external' ></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="https://1000logos.net/wp-content/uploads/2018/11/GitHub-logo.jpg" alt="project-1 image">
+          <div class="layer">
+            <h3>Javascript Projects</h3>
+            <p>Projects I worked on while learning 
+            </p>
+            <a href="https://github.com/TzeLoong?tab=overview&from=2022-11-01&to=2022-11-14" target="blank"><i class='bx bx-link-external' ></i></a>
+          </div>
+        </div>
+        
+      </div>
+      <a href=""></a>
+    </div>
+
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class='bx bx-mail-send' ></i>e0701867@u.nus.edu</p>
+          <p><i class='bx bx-phone-incoming'></i>86910117</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="blank"><i class='bx bxl-meta' ></i></a>
+            <a href="https://www.instagram.com/" target="blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://github.com/TzeLoong" target="blank"><i class='bx bxl-github'></i></a>
+          </div>
+          <a href="Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your Name" required>
+             <input type="email" name="email" placeholder="Your Email" required>
+             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+             <button type="submit" class="btn btn2">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- <section class="image">
+    <div class="home-text">
+      <div class="slide">
+        <span class="one">Hello</span>
+        <span class="two">I'm</span>
+  </section> -->
+
+  <script type="text/javascript" src="script.js"></script>
+  
+</body>
+</html>
